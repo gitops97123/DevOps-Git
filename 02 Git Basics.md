@@ -163,8 +163,34 @@ Copy the public key to add deploy keys and click on "**Add key**"
     ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCxQZ/GUJsUqQ1tjJZ1cFJ1HWBzwjymZSYQ65PX5q0QBIIfK7fytIcp1aZokl/ZWDkgcj4Xn2Vd8MSneAl/PNxoovXtBrLvvbQTOCXV9e/pd47Jv6ZjzooMrKyjACH6WNC8Rzkju1AgWHsmlz3w3VgMO/G6vG019aqA8Fl5hbxdvLCCoePsYwjzJXlK8DbBoWnKbfy95OM3min5FQQiKKULPXAh9aOkLlU9B4GRXfVZnEKrSkHxNMRux6+avqe/9/jOh0JVCo6LyTyvKDyekfpLQjSXoE8TMa5G9IiYBnZZv+LoMEmS+WxhgpRjRr0jP1UYbZhBvFs4wisSSyJQrB2VnJjPVWyTi1YglSazDwAkEpREIEKKHEg/Tc66tVNoEg6XRWpCkzGPqpACTshXuE8Yr4hrj0FnP89pCwwLWRaetCU9VN4oa+9D0S+nxnrmrIUcXixGZmoxKAUM8Id8qWtBwyi4RVhIhUI5iikbcJNSojpG4z9oAeJa3ryhRssd/3E= ibm@led-training
 ![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/06.png?raw=true)
 
+# Step 7: Push a branch to GitHub
+Now we'll push the commit in your branch to your new GitHub repo. This allows other people to see the changes you've made. If they're approved by the repository's owner, the changes can then be merged into the primary branch.
+
+To push changes onto a new branch on GitHub, you'll want to run git push origin yourbranchname. GitHub will automatically create the branch for you on the remote repository:
+
+    git@led-training:~/project-dir$ touch file.md
+    git@led-training:~/project-dir$ git add file.md 
+    git@led-training:~/project-dir$ git commit -m "add new file" file.md 
+    [master (root-commit) 28f7735] add new file
+    1 file changed, 0 insertions(+), 0 deletions(-)
+    create mode 100644 file.md
+
+    git@led-training:~/project-dir$ 
+    
+    git@led-training:~/project-dir$ git push origin 
+    Enumerating objects: 3, done.
+    Counting objects: 100% (3/3), done.
+    Writing objects: 100% (3/3), 214 bytes | 214.00 KiB/s, done.
+    Total 3 (delta 0), reused 0 (delta 0)
+    To github.com:gitops97123/project-dir.git
+    * [new branch]      master -> master
+    
+    git@led-training:~/project-dir$ 
+
+Now, Go to your web browser and refresh the repository and verify your data.
 
 
+![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/07.png?raw=true)
 
 
 
