@@ -145,18 +145,26 @@ When you're done filling out the information, press the 'Create repository' butt
 
 GitHub will ask if you want to create a new repo from scratch or if you want to add a repo you have created locally. In this case, since we've already created a new repo locally, we want to push that onto GitHub so follow the '....or push an existing repository from the command line' section: 
 
+![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/03.png?raw=true)
+
     ibm@led-training:~$ git clone git@github.com:gitops97123/project-dir.git
     Cloning into 'project-dir'...
     warning: You appear to have cloned an empty repository.
     ibm@led-training:~$ ls
     project-dir
 
-
-![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/03.png?raw=true)
-
 ![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/04.png?raw=true)
 
-![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/05.png?raw=true)
+Now, Go to the **Deploy keys** sections, and click on **Add deploy key** 
+lets have a look where you can add & deploy the public keys. 
+Copy the public key to add deploy keys and click on "**Add key**" 
+
+    ibm@led-training:~$ cat ~/.ssh/id_rsa.pub
+    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCxQZ/GUJsUqQ1tjJZ1cFJ1HWBzwjymZSYQ65PX5q0QBIIfK7fytIcp1aZokl/ZWDkgcj4Xn2Vd8MSneAl/PNxoovXtBrLvvbQTOCXV9e/pd47Jv6ZjzooMrKyjACH6WNC8Rzkju1AgWHsmlz3w3VgMO/G6vG019aqA8Fl5hbxdvLCCoePsYwjzJXlK8DbBoWnKbfy95OM3min5FQQiKKULPXAh9aOkLlU9B4GRXfVZnEKrSkHxNMRux6+avqe/9/jOh0JVCo6LyTyvKDyekfpLQjSXoE8TMa5G9IiYBnZZv+LoMEmS+WxhgpRjRr0jP1UYbZhBvFs4wisSSyJQrB2VnJjPVWyTi1YglSazDwAkEpREIEKKHEg/Tc66tVNoEg6XRWpCkzGPqpACTshXuE8Yr4hrj0FnP89pCwwLWRaetCU9VN4oa+9D0S+nxnrmrIUcXixGZmoxKAUM8Id8qWtBwyi4RVhIhUI5iikbcJNSojpG4z9oAeJa3ryhRssd/3E= ibm@led-training
+![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/06.png?raw=true)
+
+
+
 
 
 
