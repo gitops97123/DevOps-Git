@@ -40,3 +40,6 @@ Quick reference guides: GitHub Cheat Sheet | Visual Git Cheat Sheet
 
 The entire [Pro Git book](https://github.com/progit/progit2/releases/download/2.1.331/progit.pdf) written by Scott Chacon and Ben Straub is available to read online for free. 
 
+
+
+<img src="file:///home/ibm/Desktop/bml.png" alt="BlackMagicLinux" style="height: 100px; width:100px;"/>
