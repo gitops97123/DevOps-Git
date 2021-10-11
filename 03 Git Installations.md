@@ -42,4 +42,4 @@ The entire [Pro Git book](https://github.com/progit/progit2/releases/download/2.
 
 
 
-<img src="[logo](https://github.com/gitops97123/gitOps/blob/main/ps_redhat_01.jpg?raw=true)" alt="BlackMagicLinux" style="height: 100px; width:100px;"/>
+<img src="[logo](https://github.com/gitops97123/gitOps/blob/main/ps_redhat_01.jpg?raw=true)" alt="" style="height: 100px; width:100px;"/>
