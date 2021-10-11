@@ -42,4 +42,4 @@ The entire [Pro Git book](https://github.com/progit/progit2/releases/download/2.
 
 
 
-<img src="file:///home/ibm/Desktop/bml.png" alt="BlackMagicLinux" style="height: 100px; width:100px;"/>
+<img src="[logo](https://avatars.githubusercontent.com/u/23518818?v=4)" alt="BlackMagicLinux" style="height: 100px; width:100px;"/>
