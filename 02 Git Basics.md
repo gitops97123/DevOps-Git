@@ -135,5 +135,5 @@ If you only want to keep track of your code locally, you don't need to use GitHu
 
 To create a new repo on GitHub, log in and go to the GitHub home page. You can find the “New repository” option under the “+” sign next to your profile picture, in the top right corner of the navbar:
 
-![new repository](https://github.com/gitops97123/gitOps/blob/main/DeepinScreenshot_select-area_20211012002526.png?raw=true)
+![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/01.png?raw=true)
 
