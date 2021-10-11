@@ -51,3 +51,5 @@ Client not only check out latest snapshot of the directory but they also fully m
 
 #### No need of powerful hardware
  In case, of CVCs, the central servers need to be powerful enough to serve requests of the entire team, for smaller teams.
+
+ ![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/08.png?raw=true)
