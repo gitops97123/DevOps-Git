@@ -137,3 +137,5 @@ To create a new repo on GitHub, log in and go to the GitHub home page. You can f
 
 ![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/01.png?raw=true)
 
+After clicking the button, GitHub will ask you to name your repo and provide a brief description:
+![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/02.png?raw=true)
