@@ -144,3 +144,19 @@ After clicking the button, GitHub will ask you to name your repo and provide a b
 When you're done filling out the information, press the 'Create repository' button to make your new repo.
 
 GitHub will ask if you want to create a new repo from scratch or if you want to add a repo you have created locally. In this case, since we've already created a new repo locally, we want to push that onto GitHub so follow the '....or push an existing repository from the command line' section: 
+
+    ibm@led-training:~$ git clone git@github.com:gitops97123/project-dir.git
+    Cloning into 'project-dir'...
+    warning: You appear to have cloned an empty repository.
+    ibm@led-training:~$ ls
+    project-dir
+
+
+![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/03.png?raw=true)
+
+![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/04.png?raw=true)
+
+![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/05.png?raw=true)
+
+
+
