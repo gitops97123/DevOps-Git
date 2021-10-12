@@ -18,7 +18,7 @@ Get and set configuration variables that control all facets of how Git looks and
     Check the setting:
     $ git config -list
 
-G it alias
+* Git alias
 
 Set up an alias for each command:
 
@@ -29,19 +29,21 @@ Set up an alias for each command:
 
 ## 2. Starting a project
 
-Git init
+* Git init
+
 Create a local repository:
 
     $ git init
 
-Git clone
+* Git clone
+
 Make a local copy of the server repository.
 
     $ git clone
 
 # 3. Local changes
 
-Git add
+* Git add
 
 Add a file to staging (Index) area:
     
@@ -51,7 +53,7 @@ Add all files of a repo to staging (Index) area:
 
     $ git add*
 
-Git commit
+* Git commit
 
 Record or snapshots the file permanently in the version history with a message.
 
@@ -59,7 +61,7 @@ Record or snapshots the file permanently in the version history with a message.
 
 # 4. Track changes
 
-Git diff
+* Git diff
 
 Track the changes that have not been staged: $ git diff
 Track the changes that have staged but not committed:
@@ -75,7 +77,7 @@ Track the changes between two commits:
     $ git diff Git Diff Branches:
     $ git diff < branch 2>
 
-Git status
+* Git status
 
 Display the state of the working directory and the staging area.
 
@@ -87,7 +89,8 @@ Git show Shows objects:
 
 # 5. Commit History
 
-Git log
+* Git log
+
 Display the most recent commits and the status of the head:
 
     $ git log
@@ -101,7 +104,8 @@ Display the modified files with location:
     
     $ git log -p
 
-Git blame
+* Git blame
+
 Display the modification on each line of a file:
     
     $ git blame <file name>
@@ -124,7 +128,7 @@ Git branch Create branch:
     $ git push origin -delete Rename Branch:
     $ git branch -m
 
-Git checkout
+* Git checkout
 
 Switch between branches in a repository.
 Switch to a particular branch:
@@ -136,7 +140,7 @@ Create a new branch and switch to it:
     $ git checkout -b Checkout a Remote branch:
     $ git checkout
 
-Git stash
+* Git stash
 
 Switch branches without committing the current branch. Stash current work:
 
@@ -166,14 +170,15 @@ Stash work on a separate branch:
 
     $ git stash branch
 
-Git cherry pic
+* Git cherry pic
+
 Apply the changes introduced by some existing commit:
 
     $ git cherry-pick
 
 # 8. Merging
 
-Git merge
+* Git merge
 
 Merge the branches:
 
@@ -182,7 +187,7 @@ Merge the specified commit to currently active branch:
 
     $ git merge
 
-Git rebase
+* Git rebase
 
 Apply a sequence of commits from distinct branches into a final commit.
 
@@ -192,14 +197,16 @@ Continue the rebasing process:
     $ git rebase -continue Abort the rebasing process:
     $ git rebase --skip
 
-Git interactive rebase
+* Git interactive rebase
 
 Allow various operations like edit, rewrite, reorder, and more on existing commits.
 
     $ git rebase -i
 
 # 9. Remote
-Git remote
+
+* Git remote
+
 Check the configuration of the remote server:
 
     $ git remote -v
@@ -220,7 +227,7 @@ Change remote:
 
     $ git remote set-url
 
-Git origin master
+* Git origin master
 
 Push data to the remote server:
 
@@ -229,7 +236,7 @@ Push data to the remote server:
 
 # 10. Pushing Updates
 
-        Git push
+* Git push
 
 Transfer the commits from your local repository to a remote server. Push data to the remote server:
 
@@ -240,7 +247,8 @@ Delete a remote branch by push command:
     $ git push origin -delete edited
 
 # 11. Pulling updates
-Git pull
+
+* Git pull
 
 Pull the data from the server:
 
@@ -250,7 +258,7 @@ Pull a remote branch:
 
     $ git pull
 
-Git fetch
+* Git fetch
 
 Download branches and tags from one or more repositories. Fetch the remote repository:
 
@@ -266,7 +274,7 @@ Synchronize the local repository:
 
 # 12. Undo changes
 
-Git revert
+* Git revert
 
 Undo the changes:
 
@@ -276,7 +284,7 @@ Revert a particular commit:
     
     $ git revert
 
-Git reset
+* Git reset
 
 Reset the changes:
 
@@ -285,7 +293,8 @@ Reset the changes:
     $ git reset --mixed
 
 # 13. Removing files
-Git rm
+
+* Git rm
 
 Remove the files from the working tree and from the index:
    
