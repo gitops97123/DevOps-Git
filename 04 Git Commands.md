@@ -57,7 +57,7 @@ Record or snapshots the file permanently in the version history with a message.
 
     $ git commit -m " Commit Message"
 
-4. Track changes
+# 4. Track changes
 
 Git diff
 
@@ -82,8 +82,10 @@ Display the state of the working directory and the staging area.
     $ git status
 
 Git show Shows objects:
-$ git show
-5. Commit History
+
+    $ git show
+
+# 5. Commit History
 
 Git log
 Display the most recent commits and the status of the head:
