@@ -51,13 +51,13 @@ Add a file to staging (Index) area:
 
 Add all files of a repo to staging (Index) area:
 
-    $ git add*
+    $ git add * 
 
 * Git commit
 
 Record or snapshots the file permanently in the version history with a message.
 
-    $ git commit -m " Commit Message"
+    $ git commit -m  "Commit Message" 
 
 # 4. Track changes
 
