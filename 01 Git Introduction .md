@@ -21,7 +21,7 @@ Git is a free software distributed under the terms of the **GNU "General Public 
 
 
 #### Centralized Version Control System uses a central 
-Server to  all files and enables team colloboration But the major drawback of CVCs is its single point of failure. i.e, failure of the central server. Unfortunetly, if the central server goes down for an hour, then during that hour, no one can collaborate at all. And even in a worst cae, if the dik of the central server gets corrupted and proper backup has not been taken, then you will loose the entire history of the project. Here, DVCs comes into picture.  
+Server to  all files and enables team colloboration But the major drawback of CVCs is its single point of failure. i.e, failure of the central server. Unfortunetly, if the central server goes down for an hour, then during that hour, no one can collaborate at all. And even in a worst case, if the disk of the central server gets corrupted and proper backup has not been taken, then you will loose the entire history of the project. Here, DVCs comes into picture.  
 
 #### Distributed Centralized Version Control System
 Client not only check out latest snapshot of the directory but they also fully mirror the repository. if the server goes down, then the repository from any client can be copied back to the server to restore it. every checkout is a full backup of the repository Git does not rely on the central server and that is why you can perform many operations when you are offline, you can commit changes create branches, view logs, and perform other operations when you are offline, you require network connection only to publish your changes and takes the latest changes. 
