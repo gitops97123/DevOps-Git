@@ -62,3 +62,12 @@ Client not only check out latest snapshot of the directory but they also fully m
  In case, of CVCs, the central servers need to be powerful enough to serve requests of the entire team, for smaller teams.
 
  ![new repository](https://github.com/gitops97123/gitOps/blob/main/icons/08.png?raw=true)
+ 
+ #### Configuration Management and Version Control 
+ 
+ Configuration management is present in all the phases of software development. the configuration items can be all objects which come as an output of the development process, for example, the coding phase produces source code, exes, and obj files, which are configuration items. The various configuration items can be:
+ 
+  * Source code
+  * Documents
+  * Data used in the programs
+  
