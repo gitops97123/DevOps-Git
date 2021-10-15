@@ -7,9 +7,13 @@ Git is a free software distributed under the terms of the **GNU "General Public 
 ### Version Control System 
   
   Version Control System (VCS) is a software that helps software developers to work together and maintain a complete history of their work. 
+  Revision Control System (RCS) is an independent standalone application.   
+
 
 ####  List below are the function of a VCS. 
   * Allow developers to work simultaneously 
+  * It Stores revisions in the form of tree structures
+  * It resolves conflicts during merging. if there are any updates (addition or deletion) in the same code, the RCS alerts the user regarding the same. 
   * Does not allow overwriting each other's changes
   * maintain a history of every version
 
@@ -33,7 +37,12 @@ Client not only check out latest snapshot of the directory but they also fully m
   * Security
   * No need of Powerfull hardware 
  
+#### Reasons for implementing configuration management 
 
+  * Avoid repudiation attack
+  * Maintain project schedule
+  * Deal with constantly changing market conditions
+  * Deal with constantly customer requirements
 
 #### Free and OpenSource
 
